@@ -1,0 +1,67 @@
+.navbar {
+    overflow: hidden;
+    background-color: grey;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.navbar a {
+    float: right;
+    display: block;
+    color:aliceblue;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    background: #ddd;
+    color:rgb(161, 17, 17)
+}
+
+.main {
+    margin-top: 30px;
+}
+
+.feature {
+    height: 100vh;
+    background-image: url("https://images.alphacoders.com/804/804073.jpg");
+    background-size: cover;
+    background-position: center center;
+}
+
+.title {
+    position: absolute;
+    bottom: 50px;
+    left: 50px;
+}
+
+
+
+
+
+body {
+    background-color: gray
+}
+
+.logo {
+    font-size: 50px;
+    font-family: "mason-serif";
+    text-align: left;
+    color:rgb(161, 17, 17);
+}
+
+h1 {
+    font-size: 50px;
+    font-family: "mason-serif";
+    color: rgb(161, 17, 17);
+    text-align: center;
+}
+
+h2 {
+    font-size: 30px;
+    font-family: "mason-serif";
+    text-align: center;
+}
+
