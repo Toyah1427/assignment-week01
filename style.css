@@ -26,23 +26,44 @@
 
 .feature {
     height: 100vh;
-    background-image: url("https://images.alphacoders.com/804/804073.jpg");
-    background-size: auto;
+    background-image: url("https://mrwallpaper.com/images/high/the-witcher-3-new-logo-wallpaper-by-alexander-x-2c3qpuuvtytl08i0.webp");
+    background-size: cover;
     background-position: center center;
 }
 
-.title {
-    position: absolute;
-    bottom: 50px;
-    left: 50px;
+.feature2 {
+    height: 200vh;
+    background-image: url(https://wallpapers-clan.com/wp-content/uploads/2024/01/witcher-3-pink-sunset-landscape-aesthetic-desktop-wallpaper-preview.jpg);
+    background-size: cover;
+    background-position: center center;
 }
+
+.flex-container {
+    display: flex;
+    height: 200px;
+    align-items: flex-end;
+    flex-direction: column;
+    font-size: 35px;
+    font-weight: bold;
+    color:rgb(161, 17, 17);
+}
+
+.title {
+    display: flex;
+    height: 300px;
+    align-items: flex-end;
+}
+
+
 
 header {
     display: flex;
     align-items: center;
 }
 
-
+body {
+    background-color:black;
+}
 
 
 h1 {
@@ -59,5 +80,7 @@ h2 {
 }
 
 footer {
-    background-color: grey;
+    background-color: rgb(0, 0, 0);
+    font-size:30px;
+    color:rgb(161, 17, 17);
 }
